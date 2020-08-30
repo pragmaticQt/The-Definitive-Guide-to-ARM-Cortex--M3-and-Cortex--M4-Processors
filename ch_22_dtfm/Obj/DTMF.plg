@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\SVN\trunk\Customers\ARMCortexM4Book\Source\DTMF\DTMF.uvproj
+Project File Date:  01/31/2013
+
+<h2>Output:</h2>
+Build target 'Target 1'
+creating preprocessor file for system_ARMCM4.c...
+system_ARMCM4.c: Error:  #5: cannot open source input file "C:\Keil\ARM\Device\ARM\ARMCM4\Source\system_ARMCM4.c": No such file or directory
+compiling system_ARMCM4.c...
+system_ARMCM4.c: error: C3900U: Unrecognized option '--asm'.
+system_ARMCM4.c: error: C3900U: Unrecognized option '--interleave'.
+Target not created

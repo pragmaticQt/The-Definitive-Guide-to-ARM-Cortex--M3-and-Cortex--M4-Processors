@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork 
+-I "C:\Program Files\Keil\ARM\RV31\INC" 
+-I "C:\Program Files\Keil\ARM\CMSIS\Include" 
+-I "C:\Program Files\Keil\ARM\Inc\ST\STM32F10x" 
+-DSTM32F10X_MD -DARM_MATH_CM0 -o ".\Obj\hello.o" --omf_browse ".\Obj\hello.crf" --depend ".\Obj\hello.d" "Hello.c"

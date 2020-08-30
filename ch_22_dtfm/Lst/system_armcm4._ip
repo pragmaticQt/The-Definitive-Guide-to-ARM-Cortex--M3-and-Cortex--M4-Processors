@@ -1,0 +1,5 @@
+"C:\Keil\ARM\Device\ARM\ARMCM4\Source\system_ARMCM4.c" -E -c --cpu Cortex-M4.fp -D__MICROLIB -O0 --apcs=interwork -IC:\Keil\ARM\Device\ARM\ARMCM4\Include 
+-I "C:\Program Files\Keil\ARM\RV31\INC" 
+-I "C:\Program Files\Keil\ARM\CMSIS\Include" 
+-I "C:\Program Files\Keil\ARM\Inc\ST\STM32F4xx" 
+-DCORE_M4 -DARM_MATH_CM4 -D__FPU_PRESENT="1" -o ".\Lst\system_armcm4.i" --list_dir ".\\Lst\\" --list

@@ -1,0 +1,23 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\SVN\trunk\Customers\ARMCortexM4Book\Source\DTMF\Hello.uvproj
+Project File Date:  01/22/2013
+
+<h2>Output:</h2>
+Build target 'STM32F103 Simulator'
+compiling Hello.c...
+C:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h(61): warning:  #47-D: incompatible redefinition of macro "__CORTEX_M" (declared at line 61 of "C:\Program Files\Keil\ARM\CMSIS\Include\core_cm3.h")
+linking...
+.\Obj\Hello.axf: error: L6047U: The size of this image (105824 bytes) exceeds the maximum allowed for this version of the linker
+Target not created
+Build target 'STM32F103 Simulator'
+compiling Hello.c...
+C:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h(61): warning:  #47-D: incompatible redefinition of macro "__CORTEX_M" (declared at line 61 of "C:\Program Files\Keil\ARM\CMSIS\Include\core_cm3.h")
+Hello.c(68): warning:  #177-D: variable "DTMF_RFFT" was declared but never referenced
+Hello.c(69): warning:  #177-D: variable "DTMF_CFFT" was declared but never referenced
+linking...
+Program Size: Code=8992 RO-data=300 RW-data=476 ZI-data=15780  
+".\Obj\Hello.axf" - 0 Error(s), 3 Warning(s).

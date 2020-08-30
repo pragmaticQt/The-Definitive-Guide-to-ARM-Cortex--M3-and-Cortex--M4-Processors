@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -nostartfiles -g -Map=blinky.map -Os --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\blinky -TC:\CooCox\CoIDE\configuration\ProgramData\blinky/arm-gcc-link.ld -g -L..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m -lm">
+      <target file="blinky.elf" lastModified="13be7d03bec">
+         <source file="..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libm.a" lastModified="13b769b5a98"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="13be7d0390e"/>
+         <source file="..\obj\main.o" lastModified="13be7d0395c"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="13be7d039aa"/>
+         <source file="..\obj\syscalls.o" lastModified="13be7d039f8"/>
+      </target>
+   </processor>
+</history>

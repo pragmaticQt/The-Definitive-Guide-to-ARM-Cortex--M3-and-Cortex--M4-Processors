@@ -1,0 +1,24 @@
+*** Creating Trace Output File 'DTMF.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"system_armcm4.o"'
+### List of Objects: adding '".\startup_armcm4.o"'
+### List of Objects: adding '"retarget.o"'
+### List of Objects: adding '"serial_mps.o"'
+### List of Objects: adding '"dtmf.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "system_armcm4.o" ".\startup_armcm4.o" "retarget.o" "serial_mps.o" "dtmf.o" 
+--library_type=microlib --strict --scatter "DTMF.sct" 
+../../../ARM/CMSIS/Lib/ARM/arm_cortexM4lf_math.lib --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\DTMF.map" -o DTMF.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'DTMF.axf'
+### ADS-LD Command File: 'DTMF.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'DTMF.lnp', Handle=0x00000370
+### Writing '.lnp' file
+### ADS-LD Command file 'DTMF.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

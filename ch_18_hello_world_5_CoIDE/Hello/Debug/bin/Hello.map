@@ -1,0 +1,394 @@
+Archive member included because of file (symbol)
+
+..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libg.a(lib_a-memcpy.o)
+                              ..\obj\printf.o (memcpy)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\semihosting.o
+ .data          0x00000000        0x0 ..\obj\semihosting.o
+ .text.SH_SendString
+                0x00000000        0xa ..\obj\semihosting.o
+ .text          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .data          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .data          0x00000000        0x0 ..\obj\main.o
+ .bss           0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\printf.o
+ .bss           0x00000000        0x0 ..\obj\printf.o
+ .text.PrintChar
+                0x00000000        0x4 ..\obj\printf.o
+ .text.PutChar  0x00000000        0x6 ..\obj\printf.o
+ .text.snprintf
+                0x00000000       0x18 ..\obj\printf.o
+ .text.sprintf  0x00000000       0x18 ..\obj\printf.o
+ .text.fprintf  0x00000000       0x18 ..\obj\printf.o
+ .data          0x00000000        0x0 ..\obj\sh_cmd.o
+ .bss           0x00000000        0x0 ..\obj\sh_cmd.o
+ .text          0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .data          0x00000000       0x14 ..\obj\system_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x74 ..\obj\system_stm32f4xx.o
+ .text          0x00000000        0x0 ..\obj\syscalls.o
+ .data          0x00000000        0x0 ..\obj\syscalls.o
+ .bss           0x00000000        0x4 ..\obj\syscalls.o
+ .text._sbrk    0x00000000       0x1c ..\obj\syscalls.o
+ .text.link     0x00000000        0x6 ..\obj\syscalls.o
+ .text._close   0x00000000        0x6 ..\obj\syscalls.o
+ .text._fstat   0x00000000        0xa ..\obj\syscalls.o
+ .text._isatty  0x00000000        0x4 ..\obj\syscalls.o
+ .text._lseek   0x00000000        0x4 ..\obj\syscalls.o
+ .text._read    0x00000000        0x4 ..\obj\syscalls.o
+ .text._write   0x00000000        0x4 ..\obj\syscalls.o
+ .text.abort    0x00000000        0x2 ..\obj\syscalls.o
+ .text          0x00000000        0x0 ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libg.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libg.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libg.a(lib_a-memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00100000         xr
+ram              0x20000000         0x00020000         xrw
+ram1             0x10000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/gnu tools arm embedded/4.6 2012q4/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libgcc.a
+LOAD ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libc.a
+LOAD ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libm.a
+LOAD ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\librdimon.a
+                0x20020000                _eram = 0x20020000
+
+.text           0x08000000      0x883
+ *(.isr_vector .isr_vector.*)
+ .isr_vector    0x08000000      0x188 ..\obj\startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.SH_SendChar
+                0x08000188       0x3c ..\obj\semihosting.o
+                0x08000188                SH_SendChar
+ .text.SH_GetChar
+                0x080001c4       0x2a ..\obj\semihosting.o
+                0x080001c4                SH_GetChar
+ *fill*         0x080001ee        0x2 00
+ .text.Default_Reset_Handler
+                0x080001f0       0x58 ..\obj\startup_stm32f4xx.o
+                0x080001f0                Default_Reset_Handler
+                0x080001f0                Reset_Handler
+ .text.Default_Handler
+                0x08000248        0x2 ..\obj\startup_stm32f4xx.o
+                0x08000248                RTC_Alarm_IRQHandler
+                0x08000248                HASH_RNG_IRQHandler
+                0x08000248                EXTI2_IRQHandler
+                0x08000248                TIM8_CC_IRQHandler
+                0x08000248                DebugMon_Handler
+                0x08000248                TIM1_CC_IRQHandler
+                0x08000248                DMA2_Stream5_IRQHandler
+                0x08000248                DMA1_Stream5_IRQHandler
+                0x08000248                SysTick_Handler
+                0x08000248                PVD_IRQHandler
+                0x08000248                SDIO_IRQHandler
+                0x08000248                TAMP_STAMP_IRQHandler
+                0x08000248                PendSV_Handler
+                0x08000248                NMI_Handler
+                0x08000248                CAN2_RX1_IRQHandler
+                0x08000248                EXTI3_IRQHandler
+                0x08000248                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08000248                TIM1_UP_TIM10_IRQHandler
+                0x08000248                TIM8_UP_TIM13_IRQHandler
+                0x08000248                I2C3_ER_IRQHandler
+                0x08000248                EXTI0_IRQHandler
+                0x08000248                I2C2_EV_IRQHandler
+                0x08000248                DMA1_Stream2_IRQHandler
+                0x08000248                CAN1_RX0_IRQHandler
+                0x08000248                FPU_IRQHandler
+                0x08000248                OTG_HS_WKUP_IRQHandler
+                0x08000248                UsageFault_Handler
+                0x08000248                CAN2_SCE_IRQHandler
+                0x08000248                DMA2_Stream2_IRQHandler
+                0x08000248                SPI1_IRQHandler
+                0x08000248                TIM6_DAC_IRQHandler
+                0x08000248                TIM1_BRK_TIM9_IRQHandler
+                0x08000248                DCMI_IRQHandler
+                0x08000248                CAN2_RX0_IRQHandler
+                0x08000248                DMA2_Stream3_IRQHandler
+                0x08000248                USART6_IRQHandler
+                0x08000248                USART3_IRQHandler
+                0x08000248                CRYP_IRQHandler
+                0x08000248                CAN1_RX1_IRQHandler
+                0x08000248                UART5_IRQHandler
+                0x08000248                DMA2_Stream0_IRQHandler
+                0x08000248                TIM4_IRQHandler
+                0x08000248                I2C1_EV_IRQHandler
+                0x08000248                DMA1_Stream6_IRQHandler
+                0x08000248                DMA1_Stream1_IRQHandler
+                0x08000248                UART4_IRQHandler
+                0x08000248                TIM3_IRQHandler
+                0x08000248                RCC_IRQHandler
+                0x08000248                TIM8_BRK_TIM12_IRQHandler
+                0x08000248                EXTI15_10_IRQHandler
+                0x08000248                ADC_IRQHandler
+                0x08000248                DMA1_Stream7_IRQHandler
+                0x08000248                TIM7_IRQHandler
+                0x08000248                CAN2_TX_IRQHandler
+                0x08000248                TIM5_IRQHandler
+                0x08000248                DMA2_Stream7_IRQHandler
+                0x08000248                I2C3_EV_IRQHandler
+                0x08000248                EXTI9_5_IRQHandler
+                0x08000248                RTC_WKUP_IRQHandler
+                0x08000248                ETH_WKUP_IRQHandler
+                0x08000248                SPI2_IRQHandler
+                0x08000248                OTG_HS_EP1_IN_IRQHandler
+                0x08000248                MemManage_Handler
+                0x08000248                DMA1_Stream0_IRQHandler
+                0x08000248                CAN1_TX_IRQHandler
+                0x08000248                SVC_Handler
+                0x08000248                EXTI4_IRQHandler
+                0x08000248                FSMC_IRQHandler
+                0x08000248                ETH_IRQHandler
+                0x08000248                OTG_HS_EP1_OUT_IRQHandler
+                0x08000248                WWDG_IRQHandler
+                0x08000248                TIM2_IRQHandler
+                0x08000248                OTG_FS_WKUP_IRQHandler
+                0x08000248                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000248                OTG_HS_IRQHandler
+                0x08000248                EXTI1_IRQHandler
+                0x08000248                USART2_IRQHandler
+                0x08000248                I2C2_ER_IRQHandler
+                0x08000248                DMA2_Stream1_IRQHandler
+                0x08000248                CAN1_SCE_IRQHandler
+                0x08000248                FLASH_IRQHandler
+                0x08000248                DMA2_Stream4_IRQHandler
+                0x08000248                BusFault_Handler
+                0x08000248                USART1_IRQHandler
+                0x08000248                OTG_FS_IRQHandler
+                0x08000248                SPI3_IRQHandler
+                0x08000248                DMA1_Stream4_IRQHandler
+                0x08000248                I2C1_ER_IRQHandler
+                0x08000248                DMA2_Stream6_IRQHandler
+                0x08000248                DMA1_Stream3_IRQHandler
+ .text.my_gets  0x0800024a       0x72 ..\obj\main.o
+                0x0800024a                my_gets
+ .text.startup.main
+                0x080002bc       0x3c ..\obj\main.o
+                0x080002bc                main
+ .text.PutString
+                0x080002f8       0x12 ..\obj\printf.o
+                0x080002f8                PutString
+ .text.PutUnsignedInt
+                0x0800030a       0x40 ..\obj\printf.o
+                0x0800030a                PutUnsignedInt
+ .text.PutSignedInt
+                0x0800034a       0x62 ..\obj\printf.o
+                0x0800034a                PutSignedInt
+ .text.PutHexa  0x080003ac       0x4a ..\obj\printf.o
+                0x080003ac                PutHexa
+ .text.vsnprintf
+                0x080003f6      0x116 ..\obj\printf.o
+                0x080003f6                vsnprintf
+ .text.vsprintf
+                0x0800050c       0x12 ..\obj\printf.o
+                0x0800050c                vsprintf
+ *fill*         0x0800051e        0x2 00
+ .text.fputc    0x08000520       0x28 ..\obj\printf.o
+                0x08000520                fputc
+ .text.fputs    0x08000548       0x24 ..\obj\printf.o
+                0x08000548                fputs
+ .text.puts     0x0800056c       0x10 ..\obj\printf.o
+                0x0800056c                puts
+ .text.vfprintf
+                0x0800057c       0x44 ..\obj\printf.o
+                0x0800057c                vfprintf
+ .text.vprintf  0x080005c0       0x14 ..\obj\printf.o
+                0x080005c0                vprintf
+ .text.printf   0x080005d4       0x18 ..\obj\printf.o
+                0x080005d4                printf
+ .text          0x080005ec       0x28 ..\obj\sh_cmd.o
+                0x080005ec                SH_DoCommand
+                0x080005fe                HardFault_Handler
+ .text.SystemInit
+                0x08000614       0xe8 ..\obj\system_stm32f4xx.o
+                0x08000614                SystemInit
+ .text.memcpy   0x080006fc      0x144 ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libg.a(lib_a-memcpy.o)
+                0x080006fc                memcpy
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x08000840       0x1f ..\obj\main.o
+ .rodata.str1.1
+                0x0800085f       0x24 ..\obj\printf.o
+
+.vfp11_veneer   0x08000884        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08000884        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08000884                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08000884                __exidx_end = .
+                0x08000884                . = ALIGN (0x4)
+                0x08000884                _etext = .
+                0x08000884                _sidata = .
+
+.data           0x20000000      0x430 load address 0x08000884
+                0x20000000                _sdata = .
+ *(.data .data.*)
+ .data          0x20000000      0x430 ..\obj\printf.o
+                0x20000000                _impure_ptr
+                0x20000008                r
+                0x20000430                . = ALIGN (0x4)
+                0x20000430                _edata = .
+
+.bss            0x20000430       0x14 load address 0x08000cb4
+                0x20000430                _sbss = .
+ *(.bss .bss.*)
+ .bss           0x20000430       0x11 ..\obj\semihosting.o
+ *(COMMON)
+                0x20000444                . = ALIGN (0x4)
+ *fill*         0x20000441        0x3 00
+                0x20000444                _ebss = .
+
+.co_stack       0x20000444      0x804 load address 0x08000cc8
+                0x20000448                . = ALIGN (0x8)
+ *fill*         0x20000444        0x4 00
+ *(.co_stack .co_stack.*)
+ .co_stack      0x20000448      0x800 ..\obj\startup_stm32f4xx.o
+                0x20000448                pulStack
+                0x20000c48                . = ALIGN (0x4)
+                0x20000c48                _end = .
+LOAD ..\obj\semihosting.o
+LOAD ..\obj\startup_stm32f4xx.o
+LOAD ..\obj\main.o
+LOAD ..\obj\printf.o
+LOAD ..\obj\sh_cmd.o
+LOAD ..\obj\system_stm32f4xx.o
+LOAD ..\obj\syscalls.o
+LOAD ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libm.a
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.6 2012q4/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libgcc.a
+LOAD ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libg.a
+LOAD ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libc.a
+END GROUP
+OUTPUT(Hello.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x21a8
+ .debug_info    0x00000000      0x135 ..\obj\semihosting.o
+ .debug_info    0x00000135      0x196 ..\obj\startup_stm32f4xx.o
+ .debug_info    0x000002cb      0x313 ..\obj\main.o
+ .debug_info    0x000005de     0x10be ..\obj\printf.o
+ .debug_info    0x0000169c       0x91 ..\obj\sh_cmd.o
+ .debug_info    0x0000172d      0x641 ..\obj\system_stm32f4xx.o
+ .debug_info    0x00001d6e      0x43a ..\obj\syscalls.o
+
+.debug_abbrev   0x00000000      0x84a
+ .debug_abbrev  0x00000000       0xbe ..\obj\semihosting.o
+ .debug_abbrev  0x000000be       0xe9 ..\obj\startup_stm32f4xx.o
+ .debug_abbrev  0x000001a7      0x100 ..\obj\main.o
+ .debug_abbrev  0x000002a7      0x336 ..\obj\printf.o
+ .debug_abbrev  0x000005dd       0x14 ..\obj\sh_cmd.o
+ .debug_abbrev  0x000005f1      0x16c ..\obj\system_stm32f4xx.o
+ .debug_abbrev  0x0000075d       0xed ..\obj\syscalls.o
+
+.debug_loc      0x00000000      0xd99
+ .debug_loc     0x00000000       0x7c ..\obj\semihosting.o
+ .debug_loc     0x0000007c       0x33 ..\obj\startup_stm32f4xx.o
+ .debug_loc     0x000000af       0xd0 ..\obj\main.o
+ .debug_loc     0x0000017f      0xa52 ..\obj\printf.o
+ .debug_loc     0x00000bd1      0x130 ..\obj\system_stm32f4xx.o
+ .debug_loc     0x00000d01       0x98 ..\obj\syscalls.o
+
+.debug_aranges  0x00000000      0x1c8
+ .debug_aranges
+                0x00000000       0x30 ..\obj\semihosting.o
+ .debug_aranges
+                0x00000030       0x28 ..\obj\startup_stm32f4xx.o
+ .debug_aranges
+                0x00000058       0x28 ..\obj\main.o
+ .debug_aranges
+                0x00000080       0xa0 ..\obj\printf.o
+ .debug_aranges
+                0x00000120       0x20 ..\obj\sh_cmd.o
+ .debug_aranges
+                0x00000140       0x28 ..\obj\system_stm32f4xx.o
+ .debug_aranges
+                0x00000168       0x60 ..\obj\syscalls.o
+
+.debug_ranges   0x00000000      0x148
+ .debug_ranges  0x00000000       0x20 ..\obj\semihosting.o
+ .debug_ranges  0x00000020       0x18 ..\obj\startup_stm32f4xx.o
+ .debug_ranges  0x00000038       0x18 ..\obj\main.o
+ .debug_ranges  0x00000050       0x90 ..\obj\printf.o
+ .debug_ranges  0x000000e0       0x18 ..\obj\system_stm32f4xx.o
+ .debug_ranges  0x000000f8       0x50 ..\obj\syscalls.o
+
+.debug_line     0x00000000      0xbb4
+ .debug_line    0x00000000       0xab ..\obj\semihosting.o
+ .debug_line    0x000000ab      0x157 ..\obj\startup_stm32f4xx.o
+ .debug_line    0x00000202      0x162 ..\obj\main.o
+ .debug_line    0x00000364      0x473 ..\obj\printf.o
+ .debug_line    0x000007d7       0x79 ..\obj\sh_cmd.o
+ .debug_line    0x00000850      0x1d6 ..\obj\system_stm32f4xx.o
+ .debug_line    0x00000a26      0x18e ..\obj\syscalls.o
+
+.debug_str      0x00000000      0xa88
+ .debug_str     0x00000000      0x10f ..\obj\semihosting.o
+                                0x148 (size before relaxing)
+ .debug_str     0x0000010f       0xb7 ..\obj\startup_stm32f4xx.o
+                                0x18c (size before relaxing)
+ .debug_str     0x000001c6       0xf6 ..\obj\main.o
+                                0x1dd (size before relaxing)
+ .debug_str     0x000002bc      0x4a5 ..\obj\printf.o
+                                0x610 (size before relaxing)
+ .debug_str     0x00000761      0x1e3 ..\obj\system_stm32f4xx.o
+                                0x33e (size before relaxing)
+ .debug_str     0x00000944      0x144 ..\obj\syscalls.o
+                                0x288 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ..\obj\semihosting.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ..\obj\startup_stm32f4xx.o
+ .comment       0x00000000       0x71 ..\obj\main.o
+ .comment       0x00000000       0x71 ..\obj\printf.o
+ .comment       0x00000000       0x71 ..\obj\system_stm32f4xx.o
+ .comment       0x00000000       0x71 ..\obj\syscalls.o
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\semihosting.o
+ .ARM.attributes
+                0x00000033       0x33 ..\obj\startup_stm32f4xx.o
+ .ARM.attributes
+                0x00000066       0x33 ..\obj\main.o
+ .ARM.attributes
+                0x00000099       0x33 ..\obj\printf.o
+ .ARM.attributes
+                0x000000cc       0x21 ..\obj\sh_cmd.o
+ .ARM.attributes
+                0x000000ed       0x33 ..\obj\system_stm32f4xx.o
+ .ARM.attributes
+                0x00000120       0x33 ..\obj\syscalls.o
+ .ARM.attributes
+                0x00000153       0x2e ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libg.a(lib_a-memcpy.o)
+
+.debug_frame    0x00000000      0x3bc
+ .debug_frame   0x00000000       0x54 ..\obj\semihosting.o
+ .debug_frame   0x00000054       0x38 ..\obj\startup_stm32f4xx.o
+ .debug_frame   0x0000008c       0x48 ..\obj\main.o
+ .debug_frame   0x000000d4      0x1e4 ..\obj\printf.o
+ .debug_frame   0x000002b8       0x34 ..\obj\system_stm32f4xx.o
+ .debug_frame   0x000002ec       0xa0 ..\obj\syscalls.o
+ .debug_frame   0x0000038c       0x30 ..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libg.a(lib_a-memcpy.o)

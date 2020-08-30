@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<History> 
+  <File usedCount="2" path="semihosting/semihosting.c"/>  
+  <File usedCount="2" path="semihosting/semihosting.h"/>  
+  <File usedCount="2" path="semihosting/sh_cmd.s"/>
+</History>

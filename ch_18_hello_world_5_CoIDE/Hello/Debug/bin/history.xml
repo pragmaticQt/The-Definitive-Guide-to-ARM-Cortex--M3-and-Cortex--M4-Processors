@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -nostartfiles -g -Map=Hello.map -Os --gc-sections -lgcc -lc -lm -lrdimon -LC:\CooCox\CoIDE\configuration\ProgramData\Hello -TC:\CooCox\CoIDE\configuration\ProgramData\Hello/arm-gcc-link.ld -g -L..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m -lm">
+      <target file="Hello.elf" lastModified="13bf2ce3ec4">
+         <source file="..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libm.a" lastModified="13b769b5a98"/>
+         <source file="..\obj\semihosting.o" lastModified="13bf2ce33bc"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="13bf2ce3514"/>
+         <source file="..\obj\main.o" lastModified="13bf2ce367a"/>
+         <source file="..\obj\printf.o" lastModified="13bf2ce38ea"/>
+         <source file="..\obj\sh_cmd.o" lastModified="13bf2ce3929"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="13bf2ce3a80"/>
+         <source file="..\obj\syscalls.o" lastModified="13bf2ce3bc8"/>
+      </target>
+   </processor>
+</history>
